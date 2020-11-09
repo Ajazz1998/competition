@@ -147,7 +147,7 @@ li{
 }
 
 
-.fa-comment{
+.fix-icon .fa-comment{
     position: absolute;
     right: 0;
     margin-right: 40px;
@@ -181,4 +181,11 @@ li{
 
 .fix-text:hover, .fix-text:visited{
     color: var(--sky-blue);
+}
+
+.n-icon .fa-comment{
+    position: absolute;
+    right: 55%;
+    font-size: 25px;
+    margin-top: -10px;
 }
