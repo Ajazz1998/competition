@@ -198,3 +198,37 @@ li{
     font-size: 25px;
     margin-top: -10px;
 }
+
+.least-post{
+    width: 30%;
+    margin-left: 30px;
+}
+
+.l-post{
+    display: flex;
+    margin: 40px 15px;
+}
+
+.l-post img{
+    width: 80px;
+    cursor: pointer;
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.l-post img::after{
+    content: "";
+    display: block;
+    background: rgb(66, 66, 66);
+}
+
+.l-post p{
+    color: var(--light-gray);
+    margin-top: 5px;
+    font-size: 14px;
+}
