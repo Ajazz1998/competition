@@ -30,13 +30,18 @@ li{
 .row{
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 75%;
 }
 
 .flex-center{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .header{
@@ -130,6 +135,22 @@ li{
     width: 70%;
 }
 
+.post-content{
+    margin: 20px 15px;
+}
+
 .post-container img{
     width: 100%;
+}
+
+.p-conten{
+    padding:0 10%;
+    text-transform: capitalize;
+    margin:25px 0;
+}
+
+.p-conten p{
+    font-size: 13px;
+    color: var(--light-gray);
+    margin-bottom: 10px;
 }
