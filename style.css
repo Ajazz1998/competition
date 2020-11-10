@@ -136,6 +136,10 @@ li{
     border: 1px solid var(--sky-blue);
 }
 
+.posts-container{
+    position: relative;
+}
+
 .main-post{
     display: flex;
 }
