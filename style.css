@@ -238,6 +238,7 @@ li{
     background: var(--light-gray);
     height: 350px;
     opacity: .6;
+    margin: 40px 0;
 }
 
 .search{
@@ -260,4 +261,8 @@ li{
     border: 0;
     cursor: pointer;
     font-size: 20px;
+}
+
+.morep{
+    margin: 40px 0;
 }
