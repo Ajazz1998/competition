@@ -200,19 +200,20 @@ li{
 }
 
 .least-post{
-    width: 30%;
+    width: 28%;
     margin-left: 30px;
 }
 
 .l-post{
     display: flex;
-    margin: 40px 15px;
+    margin: 30px 0;
+    margin-left: 30px;
 }
 
 .l-post img{
-    width: 80px;
+    width: 75px;
     cursor: pointer;
-    height: 70px;
+    height: 65px;
     margin-right: 10px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -230,5 +231,11 @@ li{
 .l-post p{
     color: var(--light-gray);
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 13px;
+}
+
+.adv{
+    background: var(--light-gray);
+    height: 350px;
+    opacity: .6;
 }
