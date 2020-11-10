@@ -277,3 +277,20 @@ li{
     margin: 9px;
     text-transform: uppercase;
 }
+
+.social-icons{
+    position: absolute;
+    display: grid;
+    right: 0;
+    top: 25%;
+}
+
+.social-icons i{
+    color: var(--light-gray);
+    font-size: 40px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    margin: 5px 0;
+    padding: 14px;
+    padding-right: 2px;
+    cursor: pointer;
+}
