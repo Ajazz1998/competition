@@ -293,6 +293,16 @@ li{
     padding: 14px;
     padding-right: 2px;
     cursor: pointer;
+    transition: 200ms background;
+    -webkit-transition: 200ms background;
+    -moz-transition: 200ms background;
+    -ms-transition: 200ms background;
+    -o-transition: 200ms background;
+}
+
+.social-icons i:hover{
+    background: var(--sky-blue);
+    color: var(--light-white);
 }
 
 
