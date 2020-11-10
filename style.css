@@ -232,6 +232,7 @@ li{
     color: var(--light-gray);
     margin-top: 5px;
     font-size: 13px;
+    text-transform: uppercase;
 }
 
 .adv{
@@ -265,4 +266,10 @@ li{
 
 .morep{
     margin: 40px 0;
+}
+
+.morep p{
+    font-size: 13px;
+    margin: 9px;
+    text-transform: uppercase;
 }
