@@ -243,6 +243,7 @@ li{
 .search{
     margin: 30px 0;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    position: relative;
 }
 
 .search input[type=text]{
@@ -250,4 +251,13 @@ li{
     border: 0;
     outline: 0;
     font-size: 15px;
+}
+
+.search .submmit{
+    position: absolute;
+    right: 0;
+    padding: 17px 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
 }
