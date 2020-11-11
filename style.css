@@ -221,7 +221,8 @@ li{
     content: "\265C";
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
+    color: var(--light-white);
     opacity: .8;
     display: flex;
     background-color: var(--sky-blue);
