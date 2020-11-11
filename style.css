@@ -217,10 +217,10 @@ li{
 }
 
 
-.l-post:hover::before{
-    content: " ";
+.l-post::before{
+    content: "\265C";
     opacity: .8;
-    display: block;
+    display: flex;
     background-color: var(--sky-blue);
     position: absolute;
     border-radius: 50%;
