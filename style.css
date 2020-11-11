@@ -219,6 +219,9 @@ li{
 
 .l-post::before{
     content: "\265C";
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
     opacity: .8;
     display: flex;
     background-color: var(--sky-blue);
